@@ -2,7 +2,10 @@ unique_ids:
   assets:
     theme.css: 6G44GIEQQRJLILWU6GQSQO5BTDFT5ZI3
   forms:
-    Form1: '1730925669029220914854522.36026'
+    About: '1730925921527855012960457.1279'
+    Contact: '173092593865961084145067.01232'
+    Home: '1730925669029220914854522.36026'
   modules: {}
   scripts: {}
-  server_modules: {}
+  server_modules:
+    ServerModule1: '1730925722293317185605872.3967'
