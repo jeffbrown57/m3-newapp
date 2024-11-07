@@ -11,6 +11,12 @@ class Home(HomeTemplate):
         self.init_components(**properties)
 
         # Any code you write here will run before the form opens.
+        # label and button added dynamically
+        lp = LinearPanel(background="lightgreen")
+        lp.add_component(Label(text="Hello"))
+        lp.add_component(Button(text="Click me"))
+        self.layout.add_component(lp)
+        
 
     def navigation_link_about_click(self, **event_args):
         """This method is called when the component is clicked"""
