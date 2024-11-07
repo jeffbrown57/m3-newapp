@@ -13,11 +13,7 @@ class Home(HomeTemplate):
         # label and button added dynamically
 
         
-        #lp = LinearPanel(background="lightgreen")
-        #lp.add_component(Label(text="Hello"))
-        #lp.add_component(btn_on)
-        #self.layout.add_component(lp)
-        
+      
 
     def navigation_link_about_click(self, **event_args):
         """This method is called when the component is clicked"""
@@ -25,11 +21,13 @@ class Home(HomeTemplate):
         open_form(form)
         pass
 
-    def button_submit_click(self, **event_args):
+   
+
+    def button_1_click(self, **event_args):
         """This method is called when the component is clicked."""
-        #name = self.text_box_name.text
-        #email = self.text_box_email.text
-        Notification(f"Name: {self.text_box_name.text}\nEmail: {self.text_box_email.text}")
+        name = self.text_box_1.text
+        email = self.text_box_2.text
+        Notification(f"Name: {name}\nEmail: {email}").show()
         pass
 
    
