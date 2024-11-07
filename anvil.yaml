@@ -4,6 +4,9 @@ dependencies:
   dep_id: dep_lin1x4oec0ytd
   resolution_hints: {app_id: 4UK6WHQ6UX7AKELK, name: Material 3 Theme, package_name: m3}
   version: {version_tag: v1.2.0}
+- dep_id: dep_b9obc4owgopzq
+  resolution_hints: {app_id: 3PIDO5P3H4VPEMPL, name: routing, package_name: routing}
+  version: {version_tag: v0.3.2}
 name: M3 NewApp
 native_deps: null
 package_name: M3_NewApp
