@@ -1,8 +1,8 @@
 from ._anvil_designer import HomeTemplate
 from anvil import *
 import anvil.server
-#from ..About import About
-#from ..Contact import Contact
+from ..About import About
+from ..Contact import Contact
 
 class Home(HomeTemplate):
     def __init__(self, **properties):
@@ -25,8 +25,8 @@ class Home(HomeTemplate):
 
     def button_1_click(self, **event_args):
         """This method is called when the component is clicked."""
-        name = self.text_box_1.text
-        email = self.text_box_2.text
+        name = self.text_box_name.text
+        email = self.text_box_email.text
         Notification(f"Name: {name}\nEmail: {email}").show()
         pass
 
