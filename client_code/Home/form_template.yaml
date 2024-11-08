@@ -32,4 +32,8 @@ is_package: true
 layout:
   properties: {background_color: beige, navigation_drawer_color: lightgreen, show_sidesheet: false, text_color: purple}
   type: form:dep_lin1x4oec0ytd:Layouts.NavigationDrawerLayout
-slots: {}
+slots:
+  content:
+    index: 3
+    set_layout_properties: {}
+    target: {name: content, type: slot}
